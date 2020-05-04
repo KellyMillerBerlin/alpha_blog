@@ -13,7 +13,7 @@
                 <p class="card-text"><%= truncate(article.description) %></p>
                 <%= link_to "View", article_path(article.id), class: "btn btn-primary btn-theme-index" %>
                 <%= link_to "Edit", edit_article_path(article.id), class: "btn btn-outline-dark" %>
-                <%= link_to "Delete", article_path(article.id), method: :delete, class: "btn btn-outline-dark" %>
+                <%= link_to "Delete", article_path(article.id), method: :delete, class: "btn btn-outline-danger" %>
             </div>
             <div class="card-footer text-muted">
               <small>Created <%= time_ago_in_words(article.created_at) %> ago, edited
@@ -24,10 +24,5 @@
         </div>
       </div>
     <% end %>
-    </div>
-    <footer id="sticky-footer" class="py-4 text-white">
-      <div class="container text-center">
-        <small>&copy 2020 Kelly Miller</small>
-      </div>
-    </footer>
+  </div>
 </div>

@@ -49,6 +49,35 @@
   color: white !important;
 }
 
+.jumbotron {
+  background: asset-url("ellery-unsplash.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 450px;
+  color: rgb(32, 32, 32);
+}
+
+.jumbotron h1 {
+  color: rgb(32, 32, 32) !important;
+}
+
+.page-content {
+  flex: 1 0 auto;
+  background-color: #484848;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3 {
+  color: white;
+}
+
 #logo {
   float: left;
   font-size: 1.7em;
@@ -62,32 +91,8 @@
   padding-top: 25px;
 }
 
-.jumbotron {
-  background: asset-url("ellery-unsplash.png");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-height: 450px;
-  color: rgb(32, 32, 32);
-}
-
-html,
-body {
-  height: 100%;
-}
-
-.page-title {
-  color: #ffe57f;
-}
-
 #form {
   background-color: rgba(255, 255, 255, 0.5) !important;
-}
-
-.page-content {
-  flex: 1 0 auto;
-  background-color: #484848;
-  color: white;
 }
 
 #sticky-footer {
