@@ -1,1 +1,88 @@
 @import "bootstrap/dist/css/bootstrap";
+
+.navbar {
+  background-color: #484848 !important;
+}
+
+.nav-link {
+  color: #fff5d7 !important;
+}
+
+.nav-link:hover {
+  color: rgb(204, 153, 0) !important;
+}
+
+.link-theme {
+  color: #0c3b6a !important;
+}
+
+.link-theme:hover {
+  color: #5076a7 !important;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+}
+
+.navbar-toggler:hover {
+  border: 0.5px solid rgb(204, 153, 0) !important;
+}
+
+.btn-theme {
+  background-color: rgb(204, 153, 0) !important;
+  color: white !important;
+  border: none;
+}
+
+.btn-theme:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+}
+
+.btn-theme-index {
+  background-color: white !important;
+  color: rgb(204, 153, 0) !important;
+  border: 1px solid rgb(204, 153, 0) !important;
+}
+
+.btn-theme-index:hover {
+  background-color: rgb(204, 153, 0) !important;
+  color: white !important;
+}
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+#home-container {
+  padding-top: 25px;
+}
+
+.jumbotron {
+  background: asset-url("ellery-unsplash.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+  color: rgb(32, 32, 32);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.page-content {
+  flex: 1 0 auto;
+  background-color: #dcc7aa;
+  color: #484848;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+  background-color: #484848;
+}
