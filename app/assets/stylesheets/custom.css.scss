@@ -1,11 +1,11 @@
 @import "bootstrap/dist/css/bootstrap";
 
 .navbar {
-  background-color: #484848 !important;
+  background-color: #757575 !important;
 }
 
 .nav-link {
-  color: #fff5d7 !important;
+  color: #fff5d7 !important; // Refactor to custom, global link
 }
 
 .nav-link:hover {
@@ -67,7 +67,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 425px;
+  max-height: 450px;
   color: rgb(32, 32, 32);
 }
 
@@ -76,13 +76,21 @@ body {
   height: 100%;
 }
 
+.page-title {
+  color: #ffe57f;
+}
+
+#form {
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
+
 .page-content {
   flex: 1 0 auto;
-  background-color: #dcc7aa;
-  color: #484848;
+  background-color: #484848;
+  color: white;
 }
 
 #sticky-footer {
   flex-shrink: none;
-  background-color: #484848;
+  background-color: #757575;
 }
